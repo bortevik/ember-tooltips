@@ -514,8 +514,6 @@ export default EmberTetherComponent.extend({
     }
 
     this._super(...arguments); // Removes tether
-
-    this.sendAction('onDestroy', this);
   },
 
   startTether() {
